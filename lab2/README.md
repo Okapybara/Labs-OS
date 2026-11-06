@@ -8,11 +8,14 @@
 
 Компиляция: ```gcc -pthread main.c -o lab2```
 
-Запуск: ```./lab2 --size <N> --window <W> --iterations <I> --threads <T>``` \n
+Запуск: ```./lab2 --size <N> --window <W> --iterations <I> --threads <T>```
+
+```
 --size — размер матрицы (1–10000)
 --window — размер фильтра, нечётный (1–11)
 --iterations — число итераций свёртки (1–10000)
 --threads — число рабочих потоков (1–10000)
+```
 
 Запуск с просмотром количества потоков:
 ```strace -f -e trace=clone3 ./lab2 --size <N> --window <W> --iterations <I> --threads <T>```
