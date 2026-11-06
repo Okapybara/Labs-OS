@@ -13,7 +13,7 @@
 ```
 gcc child1.c -o child1
 gcc child2.c -o child2
-gcc parent.c  -o parent
+gcc parent.c -o parent
 ```
 
 Запуск: ```./parent```
