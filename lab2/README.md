@@ -8,7 +8,7 @@
 
 Компиляция: ```gcc -pthread main.c -o lab2```
 
-Запуск: ```./lab2 --size <N> --window <W> --iterations <I> --threads <T>```
+Запуск: ```./lab2 --size <N> --window <W> --iterations <I> --threads <T>``` \n
 --size — размер матрицы (1–10000)
 --window — размер фильтра, нечётный (1–11)
 --iterations — число итераций свёртки (1–10000)
